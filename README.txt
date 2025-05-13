@@ -1,9 +1,8 @@
-sudo buildkitd 
-으로 빌드킷 실행후 
+빌드킷 실행
+$sudo buildkitd 
 
 다른테미널에서 빌드
-명령어:
-buildctl build \
+$buildctl build \
   --frontend=dockerfile.v0 \
   --local context=./context \
   --local dockerfile=. \
@@ -11,4 +10,8 @@ buildctl build \
 
 eBPF
 
-./open_monitor_user로 감시 실행
+eBPF 컴파일
+$make
+
+필터실행
+$./open_monitor_user
