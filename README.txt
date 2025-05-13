@@ -8,3 +8,7 @@ buildctl build \
   --local context=./context \
   --local dockerfile=. \
   --opt filename=Dockerfile
+
+eBPF
+
+./open_monitor_user로 감시 실행
