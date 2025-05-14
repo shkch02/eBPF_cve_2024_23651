@@ -1,0 +1,13 @@
+buildkitd: could not lock /var/lib/buildkit/buildkitd.lock, another instance running?
+main.main.func3
+	/src/cmd/buildkitd/main.go:280
+github.com/urfave/cli.HandleAction
+	/src/vendor/github.com/urfave/cli/app.go:524
+github.com/urfave/cli.(*App).Run
+	/src/vendor/github.com/urfave/cli/app.go:286
+main.main
+	/src/cmd/buildkitd/main.go:345
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+runtime.goexit
+	/usr/local/go/src/runtime/asm_amd64.s:1598

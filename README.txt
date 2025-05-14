@@ -1,3 +1,7 @@
+배시 파일 만들어둠
+$./build_and_monitor.sh 
+
+
 빌드킷 실행
 $sudo buildkitd 
 
